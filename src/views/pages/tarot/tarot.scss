@@ -1,0 +1,23 @@
+.app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+  
+.tarot-card {
+    width: 100px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(93, 98, 194);
+    margin: 10px;
+}
+
+.tarot-card img {
+    max-width: 100%;
+    max-height: 100%;
+}
